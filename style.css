@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    padding-bottom:100px;
+     
+}
+
+#s1 {
+    color: white;
+    background: linear-gradient(pink 0%, lightblue 100%);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 5px;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 50px;
+    display: table;
+    z-index: 9;
+}
+
+.parallax-inner {
+    text-align: center;
+    position: relative;
+    vertical-align: top;
+    display: table-cell;
+}
+
+.profile {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    width: 200px;
+
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: fantasy;
+}
+
+h2 {
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+#bio {
+    padding: 50px;
+    font-family: cursive;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 1000px;
+}
+
+.line {
+    height: 3px;
+    margin: 50px auto;
+    width: 60px;
+    background-color: black;
+
+
+}
+
+#h11 {
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+p {
+    max-width: 450px;
+    margin: 20px auto;
+    font-size: 10px;
+    line-height: 1.2;
+
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    
+    cursor: pointer;
+    z-index: 10;
+    display: inline;
+    font-family: sans-serif;
+    background-color:pink;
+    width:1000px;
+}
+
+.links {
+    float: left;
+    padding-top: 9px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 9px;
+    color: black;
+    font-size: 20px;
+    font-family: fantasy;
+    text-align: center;
+     
+    
+
+
+}
+
+.links:hover {
+    background-color: white;
+}
+
+#work {
+    width: 100%;
+    height: 100%;
+
+
+
+}
+html{
+ scroll-behavior:smooth;
+    
+}
+.menu a{
+text-decoration:none;
+    text-shadow:2px 2px pink;
+    color:crimson;
+
+}
+a{
+text-decoration:none;
+}
+.article:hover{
+    color:red !important;
+    
+}
+.zoom{
+    transition: transform 1s;
+    
+    background-color:azure;
+    
+}
+.zoom:hover{
+    transform: scale(1.2);
+}
+.apps{
+    background-color:lightblue;
+}
+#playlab{
+    background-color:pink;
+}
+.digital{
+    background-color:blue;
+    
+}
+.chatbot{
+background-color:aqua;
+}
+.article {
+    color:pink !important;
+    text-decoration:underline !important;
+    
+}
+.icon h3{
+    display:inline;
+}
+.icon a{
+    color:white;
+    text-shadow:none;
+    
+}
